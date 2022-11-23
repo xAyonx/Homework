@@ -1,0 +1,6 @@
+while True:
+    jahr = int(input("Geben sie das Jahr an: "))      
+    if (jahr % 4 == 0) and (jahr % 100 != 0) or (jahr % 400 == 0):
+        print(jahr , " ist ein Schaltjahr")
+    else:
+        print(jahr , " ist kein ein Schaltjahr")
